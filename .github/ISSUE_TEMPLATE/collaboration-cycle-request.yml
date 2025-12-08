@@ -23,6 +23,13 @@ body:
     validations:
       required: true
   - type: input
+    id: team-manifest
+    attributes:
+      label: Team manifest
+      description: Please enter a URL for your team manifest, located in the the [`teams` folder of the `va.gov-team-sensitive` repo](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams). If you don't have one yet, please add one before completing this ticket.
+    validations:
+      required: true
+  - type: input
     id: product-name
     attributes:
       label: Product name
@@ -34,6 +41,13 @@ body:
     attributes:
       label: Feature name
       description: See [terms and definitions on products vs. features](https://depo-platform-documentation.scrollhelp.site/getting-started/product-operations-terms-and-definition).
+    validations:
+      required: true
+  - type: input
+    id: product-outline
+    attributes:
+      label: Product outline
+      description: Please enter a URL for your product in the Product Directory. If your product isn't in the directory, or needs to be updated, [Request an update to the Product directory](https://github.com/department-of-veterans-affairs/product-directory/issues/new?template=update-product-request.yml).
     validations:
       required: true
   - type: input
@@ -118,23 +132,3 @@ body:
       label: If your work involves changes to VA forms, enter the links to the PDFs from Find a Form on VA.gov.
       description: Use [VA Find a Form](https://www.va.gov/find-forms/). Example https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-10EZ.pdf and https://www.vba.va.gov/pubs/forms/VBA-21-526EZ-ARE.pdf.
       placeholder:
-  - type: markdown
-    attributes:
-      value: "## Artifacts"
-  - type: input
-    id: team-manifest
-    attributes:
-      label: Team manifest
-      description: Please enter a URL for your team manifest, located in the the [`teams` folder of the `va.gov-team-sensitive` repo](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams). If you don't have one yet, please add one before completing this ticket.
-    validations:
-      required: true
-  - type: input
-    id: product-outline
-    attributes:
-      label: Product outline
-      description: Please enter a URL for your product in the Product Directory. If your product isn't in the directory, or needs to be updated, [Request an update to the Product directory](https://github.com/department-of-veterans-affairs/product-directory/issues/new?template=update-product-request.yml).
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: "## Next steps"
