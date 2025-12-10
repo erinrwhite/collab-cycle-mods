@@ -13,7 +13,7 @@ body:
         This ticket initiates the [Collaboration Cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/) for your team's product or feature. The Collaboration Cycle helps teams who are building products on VA.gov and/or the VA Mobile App get feedback and guidance on their product/feature throughout their project's lifecycle to ensure their work meets VA.gov experience standards. Learn more about the [Collaboration Cycle kickoff](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/collaboration-cycle-kickoff).
   - type: markdown
     attributes:
-      value: "## Team and product information"
+      value: "## Team information"
   - type: input
     id: product-team
     attributes:
@@ -23,12 +23,38 @@ body:
     validations:
       required: true
   - type: input
-    id: team-manifest
+    id: team-label
     attributes:
-      label: Team manifest
-      description: Please enter a URL for your team manifest, located in the the [`teams` folder of the `va.gov-team-sensitive` repo](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams). If you don't have one yet, please add one before completing this ticket.
+      label: GitHub label for team
+      description: Enter a label from the va.gov-team repo. Your team label must be different than your product label.
     validations:
       required: true
+  - type: input
+    id: team-readme
+    attributes:
+      label: Team readme
+      description: Please enter a URL for your team readme, located in the the [`teams` folder of the `va.gov-team-sensitive` repo](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams). If you don't have one yet, please add one before completing this ticket.
+    validations:
+      required: true
+  - type: input
+    id: slack-channel
+    attributes:
+      label: Public DSVA Slack channel for your team
+    validations:
+      required: true
+  - type: dropdown
+    id: octo-ves
+    attributes:
+      label: Is your team an OCTO or VES team?
+      options:
+        - "Yes"
+        - "No"
+        - "Unsure"
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "## Product and feature information"
   - type: input
     id: product-name
     attributes:
@@ -51,13 +77,6 @@ body:
     validations:
       required: true
   - type: input
-    id: team-label
-    attributes:
-      label: GitHub label for team
-      description: Enter a label from the va.gov-team repo. Your team label must be different than your product label.
-    validations:
-      required: true
-  - type: input
     id: product-label
     attributes:
       label: GitHub label for product
@@ -71,12 +90,6 @@ body:
       description: Enter a label from the va.gov-team repo, if applicable.
     validations:
       required: false
-  - type: input
-    id: slack-channel
-    attributes:
-      label: Public DSVA Slack channel for VFS team
-    validations:
-      required: true
   - type: markdown
     attributes:
       value: "## Kickoff questions"
@@ -110,22 +123,6 @@ body:
         - "VA Mobile App"
     validations:
       required: true
-  - type: dropdown
-    id: octo-ves
-    attributes:
-      label: Is your team an OCTO or VES team?
-      options:
-        - "Yes"
-        - "No"
-        - "Unsure"
-    validations:
-      required: true
-  - type: input
-    id: form
-    attributes:
-      label: If your work involves changes to VA forms, enter the form numbers.
-      description: Example 10-10EZ-S and 21-526EZ
-      placeholder: 
   - type: input
     id: form-link
     attributes:
