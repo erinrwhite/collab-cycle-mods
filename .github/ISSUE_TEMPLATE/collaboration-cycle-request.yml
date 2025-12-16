@@ -90,13 +90,6 @@ body:
     validations:
       required: true
   - type: input
-    id: team-readme
-    attributes:
-      label: Team readme
-      description: Please enter a URL for your team readme, located in the the [`teams` folder of the `va.gov-team-sensitive` repo](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/teams). If you don't have one yet, please add one before completing this ticket.
-    validations:
-      required: true
-  - type: input
     id: slack-channel
     attributes:
       label: Public DSVA Slack channel for your team
