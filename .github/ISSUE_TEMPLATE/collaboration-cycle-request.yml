@@ -14,12 +14,72 @@ body:
   - type: markdown
     attributes:
       value: "## Team information"
-  - type: input
+  - type: dropdown
     id: product-team
     attributes:
       label: Your team name
-      description: 
-      placeholder: 
+      description: Select your team from the list (sorted alphabetically)
+      options:
+      - 1010 Health Apps (33001)
+      - ADE (23001)
+      - Accelerate Cybersecurity Excellence (ACE) (24001)
+      - Accreditation (10001)
+      - Analytics and Insights (23002)
+      - Appoint (10002)
+      - Ask VA (22008)
+      - Authenticated Experience (22001)
+      - BIO Aquia (19002)
+      - BIO HEART (19003)
+      - BIO Huntridge (19004)
+      - BIO Pingwind (19001)
+      - Benefits (10003)
+      - Benefits Management Tools 1 (11001)
+      - Benefits Management Tools 2 (11002)
+      - Benefits Management Tools 3 (11003)
+      - Clinical Design System - Data Visualization Design Patterns (30001)
+      - Conditions (12001)
+      - Content Management System (24002)
+      - Content and Information Architecture (21001)
+      - Core Veteran Experience 1 (22004)
+      - Core Veteran Experience 2 (22009)
+      - Decision Reviews (11004)
+      - Dependents Management Tools (13001)
+      - Design & Forms Systems (23003)
+      - Disability Core 526 (12002)
+      - Disability Pathways (12003)
+      - Employee Experience (11005)
+      - Faceted Search (21004)
+      - Facilities (29001)
+      - Financial Management (22003)
+      - GovCIO VEBT (40002)
+      - Governance (23004)
+      - Horizon (31001)
+      - Hydra (32001)
+      - IVC Forms (33002)
+      - Identity (20001)
+      - Medical Records (31002)
+      - Medications, Medical Devices and Supplies (31003)
+      - Memorials Self-Service (41001)
+      - Messaging (31004)
+      - Mobile App and Platform (22005)
+      - Mobile Feature Support (22006)
+      - My Education Benefits (40003)
+      - Notify Experience (22010)
+      - Notify Platform (22002)
+      - Orion (32002)
+      - Pension & Burial Benefits (13002)
+      - Platform Infrastructure Services (24003)
+      - Platform Security (24004)
+      - Platform Site Reliability Engineering (24005)
+      - Platform Support (23005)
+      - Public Websites (29003)
+      - Reapers (29002)
+      - Ursa Minor (32003)
+      - VA Chatbot (21002)
+      - VES Transition Experience (21003)
+      - VEText (39001)
+      - Veteran Support (22007)
+      - Watch Engineers (24006)
     validations:
       required: true
   - type: input
@@ -123,9 +183,3 @@ body:
         - "VA Mobile App"
     validations:
       required: true
-  - type: input
-    id: form-link
-    attributes:
-      label: If your work involves changes to VA forms, enter the links to the PDFs from Find a Form on VA.gov.
-      description: Use [VA Find a Form](https://www.va.gov/find-forms/). Example https://www.va.gov/vaforms/medical/pdf/VA%20Form%2010-10EZ.pdf and https://www.vba.va.gov/pubs/forms/VBA-21-526EZ-ARE.pdf.
-      placeholder:
