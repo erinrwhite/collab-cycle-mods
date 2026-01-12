@@ -6,14 +6,9 @@ labels: CC-Dashboard, collab-cycle-feedback
 assignees: ''
 
 ---
-
-### Staging Review (Required)
-<details>
-  <summary>Toggle Staging Review</summary>
+## Before meeting
   
-#### Before meeting
-  
-##### VFS actions
+### VFS actions
 - Navigate to reference link: [Staging Review Guidance](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/staging-review)  
 - [ ] Schedule your Staging Review when ready:
    - Open the [Calendly staging review calendar](https://calendly.com/collaboration-cycle/staging-review)
@@ -26,7 +21,7 @@ assignees: ''
 - [ ] Link all artifacts **ONLY** in the Staging Review artifacts section below at least four days before the scheduled Staging Review.  **Do NOT add artifacts to Comments section**
 - [ ] I confirm the environment is available and test users have been provided.
 
-**Staging Review artifacts**
+#### Staging Review artifacts
 
 Links to [Staging Review artifacts](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Staging-review.1810137181.html#Stagingreview-Artifacts) must be added to this ticket 4 business days ahead of the scheduled meeting. Please do not make changes to the product or artifacts during the 4-day review period. 
 
@@ -67,18 +62,18 @@ Links to [Staging Review artifacts](https://depo-platform-documentation.scrollhe
 - [ ] **Content source of truth:** link to Content and Information Architecture team Content feedback, such as a content source of truth.
 - [ ] **Information Architecture spec:** link to Content and Information Architecture team IA feedback, such as an IA spec.
   
-##### Platform actions
+### Platform actions
 - [ ] Slack thread with VFS team
 - [ ] Meeting date/time:
 
-#### After meeting
+## After meeting
   
-##### Platform actions
+### Platform actions
 
 - [ ] Update this ticket with the recording
   - Recording link 
   
-##### VFS actions
+### VFS actions
   
 - [ ] Review the findings tickets and comment on the ticket if there are any questions or concerns
 - [ ] Close individual findings tickets when the issue has been resolved or validated by your Product Owner. If a team has additional questions or needs Platform help validating the issue, please comment on the issue ticket.
@@ -86,5 +81,3 @@ Links to [Staging Review artifacts](https://depo-platform-documentation.scrollhe
   - [ ] Share ServiceNow ticket number here: ______
 - [ ] Close ticket once Privacy, Security, Infrastructure Readiness Review has been completed, VA 508 Office audit is requested, and all other post-Staging actions are complete
 - [ ] [Complete Collaboration Cycle feedback survey](https://ows.io/qs/o3jkwoez)
-
-</details>
