@@ -13,7 +13,7 @@ body:
         This ticket initiates the [Collaboration Cycle](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/) for your team's product or feature. The Collaboration Cycle helps teams who are building products on VA.gov and/or the VA Mobile App get feedback and guidance on their product/feature throughout their project's lifecycle to ensure their work meets VA.gov experience standards. Learn more about the [Collaboration Cycle kickoff](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/collaboration-cycle-kickoff).
   - type: markdown
     attributes:
-      value: "## Team information"
+      value: "## Team and product information"
   - type: dropdown
     id: product-team
     attributes:
@@ -82,9 +82,6 @@ body:
       - Watch Engineers (24006)
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: "## Product and feature information"
   - type: input
     id: product-name
     attributes:
