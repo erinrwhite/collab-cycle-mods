@@ -18,7 +18,7 @@ body:
     id: product-team
     attributes:
       label: Your team name
-      description: Select your team from the list (sorted alphabetically)
+      description: "Select your team from the list (sorted alphabetically). Not seeing your team here? [Add your team to the manifest](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/teams/teams-manifest-user-guide.md)"
       options:
       - 1010 Health Apps (33001)
       - ADE (23001)
@@ -80,29 +80,6 @@ body:
       - VEText (39001)
       - Veteran Support (22007)
       - Watch Engineers (24006)
-    validations:
-      required: true
-  - type: input
-    id: team-label
-    attributes:
-      label: GitHub label for team
-      description: Enter a label from the va.gov-team repo. Your team label must be different than your product label.
-    validations:
-      required: true
-  - type: input
-    id: slack-channel
-    attributes:
-      label: Public DSVA Slack channel for your team
-    validations:
-      required: true
-  - type: dropdown
-    id: octo-ves
-    attributes:
-      label: Is your team an OCTO or VES team?
-      options:
-        - "Yes"
-        - "No"
-        - "Unsure"
     validations:
       required: true
   - type: markdown
