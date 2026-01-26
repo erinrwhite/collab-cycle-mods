@@ -1,7 +1,7 @@
 name: "Collaboration Cycle Kickoff"
 description: "Kick off the Collaboration Cycle process for your product"
 title: "Collaboration Cycle for [Team Name, Product Name, Feature Name]"
-labels: ["collab-cycle-review", "collaboration-cycle", "CC-Request"]
+labels: ["collab-cycle-review", "collaboration-cycle", "CC-Request", "ADE CC"]
 assignees: []
 body:
   - type: markdown
